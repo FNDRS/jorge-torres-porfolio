@@ -1,6 +1,6 @@
 export function HeroSection() {
   return (
-    <section className="w-full flex items-center justify-center" id="hero-section" style={{ height: "calc(100vh - 122px)" }}>
+    <section className="w-full h-screen flex items-center justify-center" id="hero-section">
       <div className="h-[100px] w-[1160px] flex justify-around items-center mb-[200px]">
         <div className="flex flex-row justify-end items-start w-2/3 pr-4">
           <h1 className="font-inter font-bold text-[80px] leading-[100%] tracking-[0]">Jorge Torres</h1>
