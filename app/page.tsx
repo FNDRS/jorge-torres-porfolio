@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function MainPage() {
   return (
-    <main className="font-inter">
+    <main className={"font-inter w-full h-screen bg-[url('/assets/background_about_me_Web.png')] bg-cover bg-center"}>
       <HeroSection />
       <AboutMeSection />
     </main>
