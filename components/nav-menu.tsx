@@ -15,15 +15,15 @@ export default function NavMenu() {
   ]
 
   return (
-    <div className="w-full absolute bottom-60 left-0 flex justify-center text-[16px] font-light">
-      <nav className="bg-white/30 backdrop-blur-lg rounded-full w-[619px] p-1 flex gap-x-6 shadow-md">
+    <div className="w-full absolute top-[700px] left-0 flex justify-center text-[16px] font-light z-10">
+      <nav className="bg-white/30 backdrop-blur-lg rounded-full p-1 flex gap-x-2 justify-between shadow-md">
         {menuItems.map(({ label, href }) => {
           const isActive = pathname === href
           return (
             <Link
               key={label}
               href={href}
-              className={`px-4 py-2 rounded-full font-medium transition ${
+              className={`px-4 w-[105px] flex justify-center py-2 rounded-full font-medium transition ${
                 isActive ? "bg-white text-black" : "text-black/80 hover:bg-white/50 hover:text-black"
               }`}>
               {label}
