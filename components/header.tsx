@@ -8,9 +8,15 @@ const Header = () => {
       </div>
       <img src="/assets/header-shape.svg" alt="Header Shape" />
       <div className="h-[45px] absolute right-0 top-0 w-1/3 text-[16px]  text-red-600 flex items-center justify-evenly">
-        <a href="https://www.instagram.com/jorgeetorresx/">Instagram</a>
-        <a href="#">Behance</a>
-        <a href="https://www.linkedin.com/in/jorge-torres-5396662a3/">LinkedIn</a>
+        <a href="https://www.instagram.com/jorgeetorresx/" target="_blank">
+          Instagram
+        </a>
+        <a href="https://www.behance.net/jorgetorres46" target="_blank">
+          Behance
+        </a>
+        <a href="https://www.linkedin.com/in/jorge-torres-5396662a3/" target="_blank">
+          LinkedIn
+        </a>
       </div>
     </header>
   )
