@@ -2,8 +2,6 @@
 
 import BrandIcon from "@/components/brand-icon"
 
-import React from "react"
-
 const UxUiPage = () => {
   return (
     <section className="w-full px-5 flex justify-center items-center flex-col mt-40" id={"ui-ux-page"}>
