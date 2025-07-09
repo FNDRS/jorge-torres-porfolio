@@ -1,7 +1,5 @@
 "use client"
 
-import BrandIcon from "@/components/brand-icon"
-
 import React from "react"
 
 const ServicesPage = () => {
