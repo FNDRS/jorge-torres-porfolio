@@ -3,7 +3,7 @@ import React from "react"
 interface Props {
   src: string
   alt: string
-  style?: any
+  style?: string
 }
 
 const VisualImage = ({ src, alt, style }: Props) => {
