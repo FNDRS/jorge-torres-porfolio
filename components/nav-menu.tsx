@@ -23,7 +23,7 @@ export default function NavMenu() {
             <Link
               key={label}
               href={href}
-              className={`px-4 w-[105px] flex justify-center py-2 rounded-full font-medium transition ${
+              className={`w-[120px] flex justify-center py-3 px-5 rounded-full transition ${
                 isActive ? "bg-white text-black" : "text-black/80 hover:bg-white/50 hover:text-black"
               }`}>
               {label}
