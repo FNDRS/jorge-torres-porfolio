@@ -27,7 +27,7 @@ const ServicesPage = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="mb-[80px] relative">
         <h2 className="font-bold text-[30px] leading-[100%] tracking-[0] text-left my-4 font-redhat">MY OWN VISION</h2>
         <div className="col-span-3 text-red-600 relative bg-[url('/assets/IMG_18.png')] p-2 bg-cover bg-center h-[996px] flex justify-center items-center">
           <h2 className="z-10 font-bold text-[80px] text-center font-redhat">

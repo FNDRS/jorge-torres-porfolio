@@ -15,7 +15,7 @@ export default function NavMenu() {
   ]
 
   return (
-    <div className="w-full fixed top-[680px] left-0 flex justify-center text-[16px] font-light z-10">
+    <div className="w-full fixed bottom-[20px] left-0 flex justify-center text-[16px] font-light z-10">
       <nav className="bg-white/30 backdrop-blur-lg rounded-full p-1 flex gap-x-2 justify-between shadow-md">
         {menuItems.map(({ label, href }) => {
           const isActive = pathname === href

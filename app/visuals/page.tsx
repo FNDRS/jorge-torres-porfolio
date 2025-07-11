@@ -6,7 +6,7 @@ import React from "react"
 
 const VisualsPage = () => {
   return (
-    <div className="w-full grid grid-cols-9 gap-4 auto-rows-[120px] absolute top-0 left-0">
+    <div className="w-full grid grid-cols-9 gap-4 auto-rows-[120px] mb-[80px]">
       <VisualImage src="/assets/IMG_1.png" alt="IMG_3587" style={"col-span-2 row-span-4"} />
       <VisualImage src="/assets/IMG_2.png" alt="IMG_2" style={"col-span-2 row-span-2"} />
       <VisualImage src="/assets/IMG_3.png" alt="IMG_3" style={"col-span-2 row-span-3"} />
